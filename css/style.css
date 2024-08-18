@@ -1,0 +1,339 @@
+@import url("http://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+*{box-sizing: border-box;margin: 0;padding: 0; font-family: axiforma-regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+
+#HeaderSection{
+    background-color: #fff;
+    height: 70px;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url(../img/bg.jpeg);
+   
+    background-size: cover;
+    height: 550px;
+}
+#HeaderSection article{
+    display: flex;
+    width: 90%;
+    height: 90px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#HeaderSection article img{
+    width: 310px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+.headerimg{
+    flex-basis: 30%;
+}
+.headermenu{
+    flex-basis: 70%;
+    display: flex;
+    overflow: auto;
+   margin-left: 300px;
+ 
+}
+.headermenu ul{
+    list-style-type: none;
+    float: right;
+   
+    
+}
+.headermenu ul li{
+    float: left;
+   color: white;
+   font-weight: bold;
+   font-size: small;
+   padding: 10px;
+   cursor: pointer;
+  
+}
+.headerContainer{
+    width: auto;
+   
+    position: relative;
+}
+.select1{
+    width: 180px;
+    height: 54px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 240px;
+  
+}
+.select2{
+    width: 550px;
+    height: 54px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+
+}
+#headerText{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fa-search{
+    position: absolute;
+    top:7px;
+    left:5px;
+    color:#2874f0;
+    font-size: 18px;
+}
+.select2{
+    position: relative;
+}
+.grid_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 70px;
+    box-shadow: 3px 3px rgb(195, 193, 193);
+    
+}
+.grid_item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+    
+}
+.grid_item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+    
+}.grid_item3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+    
+}.grid_item4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+    
+}.grid_item5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+    
+}.grid_item6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+    
+}
+.grid_item7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+    
+}
+.grid_item8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+    
+}
+.grid_item9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+    
+}
+.grid_item10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+    
+}
+.grid_item11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+    
+}
+.grid_item12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: 16%;
+}
+.grid_row :hover{
+    background-color: bisque;
+    
+}
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 450px;
+    margin:0 auto;
+    padding: 10px;
+    background-color: #efefef;
+}
+.secimg1{
+    flex-basis: 50%;
+}
+.secimg2{flex-basis: 50%;}
+
+.sec2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 450px;
+    margin:0 auto;
+    padding: 10px;
+    background-color: #efefef;
+}
+.secimg4{flex-basis: 30%;}
+.secimg5{flex-basis: 30%;}
+.secimg6{flex-basis: 30%;}
+.sec3{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 450px;
+    margin:0 auto;
+    padding: 10px;
+    background-color: #efefef;
+}
+.secimg10{flex: 15%;}
+.secimg11{flex: 20%;}
+.secimg12{flex: 20%;}
+.secimg13{flex: 20%;}
+
+.i1:hover{transition: 0.7s ease-in-out;
+    transform: scale(1.1);}
+.i2:hover{transition: 0.7s ease-in-out;
+        transform: scale(1.1);}
+.i3:hover{transition: 0.7s ease-in-out;
+            transform: scale(1.1);}
+.i4:hover{transition: 0.7s ease-in-out;
+                transform: scale(1.1);}
+.i5:hover{transition: 0.7s ease-in-out;
+                    transform: scale(1.1);}
+ .i6:hover{transition: 0.7s ease-in-out;
+                        transform: scale(1.1);}
+.i7:hover{transition: 0.7s ease-in-out;
+                            transform: scale(1.1);}
+ .i8:hover{transition: 0.7s ease-in-out;
+                                transform: scale(1.1);}
+ .i9:hover{transition: 0.7s ease-in-out;
+                                    transform: scale(1.1);}
+.i10:hover{transition: 0.7s ease-in-out;
+                                        transform: scale(1.1);}
+#leftbtn{
+    font-size: 12px;
+    padding: 16px 32px;
+    color: #fff;
+    background: #212121;
+    margin-right: 4px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#last{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.lastleft{
+    flex-basis: 50%;
+    padding: 20px;
+}
+.lastright
+{
+    flex-basis: 50%;
+}
+#lastinput{
+    width: 300px;
+    height: 60px;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    margin-top:-100px;
+    
+}
+footer{
+    display: flex;
+}
+
+#foot1 ul{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+    color: #efefef;
+    list-style: none;
+   
+   
+}
+#foot1 ul li{
+    padding: 20px;
+    border-bottom: 1px solid white;
+   
+}
+#foot2 h4{
+    color: white;
+}
+#foot2 h5{
+    color: gray;
+}
